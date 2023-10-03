@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './App.scss';
+
+//theme
+import "primereact/resources/themes/viva-light/theme.css";
+
+//core
+import "primereact/resources/primereact.min.css";
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
